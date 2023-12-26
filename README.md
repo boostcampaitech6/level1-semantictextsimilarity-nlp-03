@@ -204,16 +204,16 @@
 ### **🤖Train Model**
 ```
 # ./code/config 에서 훈련 모델의 config 설정
-> python ./code/trian.py
+> python ./code/train.py
 ```
 
 
 ### **🤖Infer or Ensemble Model**
 ```
 # Infer
-> python ./code/train.py --mode infer
+> python ./code/inference.py --mode inference
 
 # Ensemble
-> python ./code/train.py --mode ensemble
+> python ./code/inference.py --mode ensemble
 ```
 
